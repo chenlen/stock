@@ -30,3 +30,20 @@
 *.exe
 *.out
 *.app
+
+# Other
+*.ipch
+*.db
+*.tlog
+*.log
+*.pdb
+*.ilk
+*.opendb
+*.vsidx
+*.db-shm
+*.db-wal
+
+# Directories
+x64/
+.vs/
+
