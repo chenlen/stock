@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="DG84Y4" name="LeiIA" projectType="guiapp" addUsingNamespaceToJuceHeader="0"
+              displaySplashScreen="1" jucerFormatVersion="1" cppLanguageStandard="latest"
+              companyWebsite="www.chenlen.com" headerPath="..\..\Source;" companyEmail="learncplusplusnevergiveup@gmail.com"
+              companyName="chenlen" companyCopyright="all rights reserved">
+  <MAINGROUP id="IWR7vl" name="LeiIA">
+    <GROUP id="{0C3DF425-9F15-AF96-26A7-1135BFB333CD}" name="WatchTool">
+      <FILE id="PyG34s" name="WatchTool.cpp" compile="1" resource="0" file="Source/WatchTool/WatchTool.cpp"/>
+      <FILE id="lzbxNm" name="WatchTool.h" compile="0" resource="0" file="Source/WatchTool/WatchTool.h"/>
+    </GROUP>
+    <GROUP id="{390E8818-8CDB-BB99-4BD8-3ADA5D158CB8}" name="Data">
+      <FILE id="JGyLq3" name="DataCenter.cpp" compile="1" resource="0" file="Source/Data/DataCenter.cpp"/>
+      <FILE id="BJt4rd" name="DataCenter.h" compile="0" resource="0" file="Source/Data/DataCenter.h"/>
+    </GROUP>
+    <GROUP id="{0F4199DC-D31A-C584-7B24-24E3EF8D8FC4}" name="Tool">
+      <FILE id="vNstST" name="EraseTool.cpp" compile="1" resource="0" file="Source/Tool/EraseTool.cpp"/>
+      <FILE id="vcWEHk" name="EraseTool.h" compile="0" resource="0" file="Source/Tool/EraseTool.h"/>
+      <FILE id="q8zuD4" name="HorizontalLineTool.cpp" compile="1" resource="0"
+            file="Source/Tool/HorizontalLineTool.cpp"/>
+      <FILE id="rfmOt3" name="HorizontalLineTool.h" compile="0" resource="0"
+            file="Source/Tool/HorizontalLineTool.h"/>
+      <FILE id="DKB3TW" name="LineTool.cpp" compile="1" resource="0" file="Source/Tool/LineTool.cpp"/>
+      <FILE id="N8mQoC" name="LineTool.h" compile="0" resource="0" file="Source/Tool/LineTool.h"/>
+      <FILE id="MEsbq3" name="NoneTool.cpp" compile="1" resource="0" file="Source/Tool/NoneTool.cpp"/>
+      <FILE id="pHiZVt" name="NoneTool.h" compile="0" resource="0" file="Source/Tool/NoneTool.h"/>
+      <FILE id="R7WPQU" name="ParallelLinesTool.cpp" compile="1" resource="0"
+            file="Source/Tool/ParallelLinesTool.cpp"/>
+      <FILE id="vmBnpr" name="ParallelLinesTool.h" compile="0" resource="0"
+            file="Source/Tool/ParallelLinesTool.h"/>
+      <FILE id="oXQYSL" name="TimeFibonacciSequenceTool.cpp" compile="1"
+            resource="0" file="Source/Tool/TimeFibonacciSequenceTool.cpp"/>
+      <FILE id="gF8yIs" name="TimeFibonacciSequenceTool.h" compile="0" resource="0"
+            file="Source/Tool/TimeFibonacciSequenceTool.h"/>
+      <FILE id="IZ1tw3" name="Tool.cpp" compile="1" resource="0" file="Source/Tool/Tool.cpp"/>
+      <FILE id="r20eAo" name="Tool.h" compile="0" resource="0" file="Source/Tool/Tool.h"/>
+      <FILE id="XswJrD" name="ToolFactory.cpp" compile="1" resource="0" file="Source/Tool/ToolFactory.cpp"/>
+      <FILE id="gx0f7u" name="ToolFactory.h" compile="0" resource="0" file="Source/Tool/ToolFactory.h"/>
+      <FILE id="Ho18KD" name="ToolType.h" compile="0" resource="0" file="Source/Tool/ToolType.h"/>
+      <FILE id="A9tnuA" name="TrendlineTool.cpp" compile="1" resource="0"
+            file="Source/Tool/TrendlineTool.cpp"/>
+      <FILE id="flJNF5" name="TrendlineTool.h" compile="0" resource="0" file="Source/Tool/TrendlineTool.h"/>
+      <FILE id="raskIn" name="VerticalLineTool.cpp" compile="1" resource="0"
+            file="Source/Tool/VerticalLineTool.cpp"/>
+      <FILE id="xF2F7Y" name="VerticalLineTool.h" compile="0" resource="0"
+            file="Source/Tool/VerticalLineTool.h"/>
+    </GROUP>
+    <GROUP id="{151DAF12-5B73-508C-ED22-3C055E3313EB}" name="KChart">
+      <FILE id="sKjoa1" name="KChart.cpp" compile="1" resource="0" file="Source/KChart/KChart.cpp"/>
+      <FILE id="NCwXlG" name="KChart.h" compile="0" resource="0" file="Source/KChart/KChart.h"/>
+    </GROUP>
+    <GROUP id="{7CADDA3C-881F-D75D-ED75-E5FF5D6F0E0C}" name="Indicator">
+      <FILE id="Eg1L9A" name="Indicator.h" compile="0" resource="0" file="Source/Indicator/Indicator.h"/>
+      <FILE id="eoOuUZ" name="IndicatorType.h" compile="0" resource="0" file="Source/Indicator/IndicatorType.h"/>
+      <FILE id="lHIvIr" name="K.cpp" compile="1" resource="0" file="Source/Indicator/K.cpp"/>
+      <FILE id="RGEI6r" name="K.h" compile="0" resource="0" file="Source/Indicator/K.h"/>
+      <FILE id="aBL4Io" name="KD.cpp" compile="1" resource="0" file="Source/Indicator/KD.cpp"/>
+      <FILE id="vcCbP6" name="KD.h" compile="0" resource="0" file="Source/Indicator/KD.h"/>
+      <FILE id="Q6QH1M" name="MA.cpp" compile="1" resource="0" file="Source/Indicator/MA.cpp"/>
+      <FILE id="UeR4D3" name="MA.h" compile="0" resource="0" file="Source/Indicator/MA.h"/>
+      <FILE id="Av5H0r" name="MACD.cpp" compile="1" resource="0" file="Source/Indicator/MACD.cpp"/>
+      <FILE id="Hoe2R0" name="MACD.h" compile="0" resource="0" file="Source/Indicator/MACD.h"/>
+      <FILE id="n0ycWQ" name="Volume.cpp" compile="1" resource="0" file="Source/Indicator/Volume.cpp"/>
+      <FILE id="FfrFpi" name="Volume.h" compile="0" resource="0" file="Source/Indicator/Volume.h"/>
+    </GROUP>
+    <GROUP id="{9480147D-82B6-4478-0DFC-4911334E93F8}" name="Source">
+      <FILE id="YUXaUe" name="Layout.cpp" compile="1" resource="0" file="Source/Layout.cpp"/>
+      <FILE id="L8F6ix" name="Key.h" compile="0" resource="0" file="Source/Key.h"/>
+      <FILE id="YZPCQu" name="DataFrequency.h" compile="0" resource="0" file="Source/DataFrequency.h"/>
+      <FILE id="dFuJvz" name="DrawUtility.cpp" compile="1" resource="0" file="Source/DrawUtility.cpp"/>
+      <FILE id="eA3Uzv" name="DrawUtility.h" compile="0" resource="0" file="Source/DrawUtility.h"/>
+      <FILE id="vae9Sa" name="Layout.h" compile="0" resource="0" file="Source/Layout.h"/>
+      <FILE id="b7F6xl" name="MainMenu.cpp" compile="1" resource="0" file="Source/MainMenu.cpp"/>
+      <FILE id="zwdSjM" name="MainMenu.h" compile="0" resource="0" file="Source/MainMenu.h"/>
+      <FILE id="YxLzOB" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="sFCIJD" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="CZVyUm" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="LeiIA" characterSet="Unicode"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="LeiIA" characterSet="Unicode"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
