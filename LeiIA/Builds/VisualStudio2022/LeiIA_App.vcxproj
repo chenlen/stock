@@ -175,6 +175,12 @@
     <ClCompile Include="C:\JUCE\modules\juce_core\containers\juce_DynamicObject.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_core\containers\juce_Enumerate_test.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_core\containers\juce_FixedSizeFunction_test.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_core\containers\juce_HashMap_test.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
@@ -238,6 +244,12 @@
     <ClCompile Include="C:\JUCE\modules\juce_core\javascript\juce_JSON.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_core\javascript\juce_JSONSerialisation_test.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_core\javascript\juce_JSONUtils.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_core\logging\juce_FileLogger.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
@@ -272,6 +284,9 @@
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_core\misc\juce_RuntimePermissions.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_core\misc\juce_ScopeGuard.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_core\misc\juce_Uuid.cpp">
@@ -1366,7 +1381,9 @@
     <ClCompile Include="C:\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\JuceLibraryCode\include_juce_core.cpp"/>
+    <ClCompile Include="..\..\JuceLibraryCode\include_juce_core.cpp">
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_data_structures.cpp"/>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_events.cpp"/>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_graphics.cpp"/>
@@ -1408,6 +1425,8 @@
     <ClInclude Include="C:\JUCE\modules\juce_core\containers\juce_ArrayBase.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\containers\juce_DynamicObject.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\containers\juce_ElementComparator.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_core\containers\juce_Enumerate.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_core\containers\juce_FixedSizeFunction.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\containers\juce_HashMap.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\containers\juce_LinkedListPointer.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\containers\juce_ListenerList.h"/>
@@ -1436,6 +1455,8 @@
     <ClInclude Include="C:\JUCE\modules\juce_core\files\juce_WildcardFileFilter.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\javascript\juce_Javascript.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\javascript\juce_JSON.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\juce_JSONSerialisation.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\juce_JSONUtils.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\logging\juce_FileLogger.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\logging\juce_Logger.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\maths\juce_BigInteger.h"/>
@@ -1466,6 +1487,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_core\misc\juce_Functional.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\misc\juce_Result.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\misc\juce_RuntimePermissions.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_core\misc\juce_ScopeGuard.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\misc\juce_Uuid.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\misc\juce_WindowsRegistry.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\native\juce_BasicNativeHeaders.h"/>
@@ -1484,6 +1506,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_core\network\juce_Socket.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\network\juce_URL.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\network\juce_WebInputStream.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_core\serialisation\juce_Serialisation.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\streams\juce_AndroidDocumentInputSource.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\streams\juce_BufferedInputStream.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\streams\juce_FileInputSource.h"/>
