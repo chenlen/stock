@@ -587,6 +587,7 @@ void MainComponent::DataFrequencyChanged(lei::DataFrequency frequency)
     data_frequency_ = frequency;
     chart_scroll_bar_.setRangeLimits(0, std::get<0>(lei::GetKDataCenter().GetKData(stock_id_, data_frequency_)).size());
     chart_scroll_bar_.scrollToBottom();
+    k_index_ = 0;
     watch_tool_.Clear();
 
     for (const auto& indicator : main_indicators_)
