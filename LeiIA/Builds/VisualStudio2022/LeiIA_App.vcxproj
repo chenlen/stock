@@ -184,7 +184,7 @@
     <ClCompile Include="C:\JUCE\modules\juce_core\containers\juce_HashMap_test.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="C:\JUCE\modules\juce_core\containers\juce_ListenerList.cpp">
+    <ClCompile Include="C:\JUCE\modules\juce_core\containers\juce_ListenerList_test.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_core\containers\juce_NamedValueSet.cpp">
@@ -238,16 +238,13 @@
     <ClCompile Include="C:\JUCE\modules\juce_core\files\juce_WildcardFileFilter.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="C:\JUCE\modules\juce_core\javascript\juce_Javascript.cpp">
+    <ClCompile Include="C:\JUCE\modules\juce_core\json\juce_JSON.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="C:\JUCE\modules\juce_core\javascript\juce_JSON.cpp">
+    <ClCompile Include="C:\JUCE\modules\juce_core\json\juce_JSONSerialisation_test.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="C:\JUCE\modules\juce_core\javascript\juce_JSONSerialisation_test.cpp">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="C:\JUCE\modules\juce_core\javascript\juce_JSONUtils.cpp">
+    <ClCompile Include="C:\JUCE\modules\juce_core\json\juce_JSONUtils.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_core\logging\juce_FileLogger.cpp">
@@ -413,6 +410,15 @@
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_core\text\juce_CharacterFunctions.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_core\text\juce_CharPointer_UTF8_test.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_core\text\juce_CharPointer_UTF16_test.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_core\text\juce_CharPointer_UTF32_test.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_core\text\juce_Identifier.cpp">
@@ -631,9 +637,6 @@
     <ClCompile Include="C:\JUCE\modules\juce_graphics\contexts\juce_GraphicsContext.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="C:\JUCE\modules\juce_graphics\contexts\juce_LowLevelGraphicsPostScriptRenderer.cpp">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_graphics\contexts\juce_LowLevelGraphicsSoftwareRenderer.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
@@ -644,6 +647,15 @@
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_graphics\effects\juce_GlowEffect.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\Var\VARC\VARC.cc">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\failing-alloc.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\harfbuzz-subset.cc">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\harfbuzz.cc">
@@ -700,7 +712,13 @@
     <ClCompile Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-glib.cc">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-gobject-structs.cc">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-graphite2.cc">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-icu.cc">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-map.cc">
@@ -830,6 +848,9 @@
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-subset-input.cc">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-subset-instancer-iup.cc">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-subset-instancer-solver.cc">
@@ -1165,13 +1186,70 @@
     <ClCompile Include="C:\JUCE\modules\juce_graphics\placement\juce_RectanglePlacement.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\BidiChain.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\BidiTypeLookup.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\BracketQueue.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\GeneralCategoryLookup.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\IsolatingRun.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\LevelRun.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\PairingLookup.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\RunQueue.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBAlgorithm.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBBase.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBCodepointSequence.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBLine.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBLog.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBMirrorLocator.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBParagraph.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBScriptLocator.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\ScriptLookup.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\ScriptStack.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SheenBidi.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\StatusStack.c">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\juce_Unicode.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\juce_UnicodeBidi.cpp">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\juce_UnicodeBrackets.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_graphics\unicode\juce_UnicodeGenerated.cpp">
@@ -1190,6 +1268,9 @@
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_graphics\juce_graphics_Harfbuzz.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\JUCE\modules\juce_graphics\juce_graphics_Sheenbidi.c">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="C:\JUCE\modules\juce_gui_basics\accessibility\juce_AccessibilityHandler.cpp">
@@ -1670,6 +1751,7 @@
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_graphics_Harfbuzz.cpp"/>
+    <ClCompile Include="..\..\JuceLibraryCode\include_juce_graphics_Sheenbidi.c"/>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_gui_basics.cpp">
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
@@ -1737,21 +1819,9 @@
     <ClInclude Include="C:\JUCE\modules\juce_core\files\juce_RangedDirectoryIterator.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\files\juce_TemporaryFile.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\files\juce_WildcardFileFilter.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\choc\containers\choc_Value.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\choc\javascript\choc_javascript.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\choc\javascript\choc_javascript_QuickJS.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\choc\math\choc_MathHelpers.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\choc\platform\choc_Assert.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\choc\platform\choc_DisableAllWarnings.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\choc\platform\choc_ReenableAllWarnings.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\choc\text\choc_FloatToString.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\choc\text\choc_JSON.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\choc\text\choc_StringUtilities.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\choc\text\choc_UTF8.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\juce_Javascript.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\juce_JSON.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\juce_JSONSerialisation.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_core\javascript\juce_JSONUtils.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_core\json\juce_JSON.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_core\json\juce_JSONSerialisation.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_core\json\juce_JSONUtils.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\logging\juce_FileLogger.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\logging\juce_Logger.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\maths\juce_BigInteger.h"/>
@@ -1765,6 +1835,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_core\memory\juce_Atomic.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\memory\juce_ByteOrder.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\memory\juce_ContainerDeletePolicy.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_core\memory\juce_CopyableHeapBlock.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\memory\juce_HeapBlock.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\memory\juce_HeavyweightLeakedObjectDetector.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_core\memory\juce_LeakedObjectDetector.h"/>
@@ -1920,7 +1991,6 @@
     <ClInclude Include="C:\JUCE\modules\juce_graphics\colour\juce_PixelFormats.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\contexts\juce_GraphicsContext.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\contexts\juce_LowLevelGraphicsContext.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_graphics\contexts\juce_LowLevelGraphicsPostScriptRenderer.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\contexts\juce_LowLevelGraphicsSoftwareRenderer.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\detail\juce_Ranges.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\effects\juce_DropShadowEffect.h"/>
@@ -1934,7 +2004,6 @@
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\Color\svg\svg.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\glyf\composite-iter.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\glyf\CompositeGlyph.hh"/>
-    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\glyf\coord-setter.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\glyf\glyf-helpers.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\glyf\glyf.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\glyf\Glyph.hh"/>
@@ -1943,7 +2012,6 @@
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\glyf\path-builder.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\glyf\SimpleGlyph.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\glyf\SubsetGlyph.hh"/>
-    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\glyf\VarCompositeGlyph.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\Layout\Common\Coverage.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\Layout\Common\CoverageFormat1.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\Layout\Common\CoverageFormat2.hh"/>
@@ -2005,6 +2073,8 @@
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\Layout\GSUB\SubstLookupSubTable.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\Layout\types.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\name\name.hh"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\Var\VARC\coord-setter.hh"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\OT\Var\VARC\VARC.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-aat-layout-ankr-table.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-aat-layout-bsln-table.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-aat-layout-common.hh"/>
@@ -2056,8 +2126,12 @@
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-ft-colr.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-ft.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-gdi.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-geometry.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-glib.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-gobject-structs.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-gobject.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-graphite2.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-icu.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-iter.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-kern.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-limits.hh"/>
@@ -2145,6 +2219,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-ot-var-gvar-table.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-ot-var-hvar-table.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-ot-var-mvar-table.hh"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-ot-var-varc-table.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-ot-var.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-ot-vorg-table.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-ot.h"/>
@@ -2154,6 +2229,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-paint.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-pool.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-priority-queue.hh"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-repacker.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-sanitize.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-serialize.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-set-digest.hh"/>
@@ -2170,6 +2246,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-subset-accelerator.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-subset-cff-common.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-subset-input.hh"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-subset-instancer-iup.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-subset-instancer-solver.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-subset-plan-member-list.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-subset-plan.hh"/>
@@ -2184,6 +2261,13 @@
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-utf.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-vector.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-version.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-wasm-api-blob.hh"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-wasm-api-buffer.hh"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-wasm-api-common.hh"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-wasm-api-face.hh"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-wasm-api-font.hh"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-wasm-api-list.hh"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-wasm-api-shape.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-wasm-api.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb-wasm-api.hh"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\fonts\harfbuzz\hb.h"/>
@@ -2244,6 +2328,43 @@
     <ClInclude Include="C:\JUCE\modules\juce_graphics\native\juce_RenderingHelpers.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\placement\juce_Justification.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\placement\juce_RectanglePlacement.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Headers\SBAlgorithm.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Headers\SBBase.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Headers\SBBidiType.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Headers\SBCodepoint.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Headers\SBCodepointSequence.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Headers\SBConfig.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Headers\SBGeneralCategory.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Headers\SBLine.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Headers\SBMirrorLocator.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Headers\SBParagraph.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Headers\SBRun.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Headers\SBScript.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Headers\SBScriptLocator.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Headers\SheenBidi.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\BidiChain.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\BidiTypeLookup.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\BracketQueue.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\BracketType.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\GeneralCategoryLookup.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\IsolatingRun.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\LevelRun.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\PairingLookup.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\RunExtrema.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\RunKind.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\RunQueue.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBAlgorithm.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBAssert.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBBase.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBCodepointSequence.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBLine.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBLog.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBMirrorLocator.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBParagraph.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\SBScriptLocator.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\ScriptLookup.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\ScriptStack.h"/>
+    <ClInclude Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\Source\StatusStack.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\juce_graphics.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_gui_basics\accessibility\enums\juce_AccessibilityActions.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_gui_basics\accessibility\enums\juce_AccessibilityEvent.h"/>
@@ -2378,7 +2499,6 @@
     <ClInclude Include="C:\JUCE\modules\juce_gui_basics\mouse\juce_TooltipClient.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_gui_basics\native\accessibility\juce_AccessibilityElement_windows.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_gui_basics\native\accessibility\juce_AccessibilityTextHelpers.h"/>
-    <ClInclude Include="C:\JUCE\modules\juce_gui_basics\native\accessibility\juce_ComInterfaces_windows.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_gui_basics\native\accessibility\juce_UIAExpandCollapseProvider_windows.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_gui_basics\native\accessibility\juce_UIAGridItemProvider_windows.h"/>
     <ClInclude Include="C:\JUCE\modules\juce_gui_basics\native\accessibility\juce_UIAGridProvider_windows.h"/>
@@ -2453,11 +2573,10 @@
     <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h"/>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\JUCE\modules\juce_core\javascript\choc\JUCE_CHANGES.txt"/>
-    <None Include="C:\JUCE\modules\juce_core\javascript\choc\LICENSE.md"/>
     <None Include="C:\JUCE\modules\juce_core\native\java\README.txt"/>
     <None Include="C:\JUCE\modules\juce_graphics\image_formats\jpglib\changes to libjpeg for JUCE.txt"/>
     <None Include="C:\JUCE\modules\juce_graphics\image_formats\pnglib\libpng_readme.txt"/>
+    <None Include="C:\JUCE\modules\juce_graphics\unicode\sheenbidi\JUCE_CHANGES.txt"/>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include=".\resources.rc"/>
