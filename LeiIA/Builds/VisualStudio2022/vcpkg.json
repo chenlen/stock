@@ -1,0 +1,8 @@
+{
+  "name": "leiia",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "rapidcsv"
+  ],
+  "builtin-baseline": "ca846b21276c9a3171074ac8d2b4f6516894a7d0"
+}
